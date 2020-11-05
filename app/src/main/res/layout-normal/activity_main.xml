@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@drawable/background"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/sq"
+        android:layout_width="161dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="328dp"
+        android:background="@drawable/button_state"
+        android:text="@string/Sq"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout" />
+
+    <Button
+        android:id="@+id/tq"
+        android:layout_width="161dp"
+        android:layout_height="52dp"
+
+        android:layout_marginTop="380dp"
+        android:background="@drawable/button_state"
+        android:text="@string/tq"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/sq"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout" />
+
+    <Button
+        android:id="@+id/RA"
+        android:layout_width="161dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="132dp"
+        android:background="@drawable/button_state"
+        android:text="@string/RA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/OA"
+        android:layout_width="161dp"
+        android:layout_height="52dp"
+        android:background="@drawable/button_state"
+        android:text="@string/OA"
+        app:layout_constraintBottom_toTopOf="@+id/RA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tq"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="302dp"
+        android:layout_height="204dp"
+        android:layout_marginBottom="428dp"
+        android:background="@drawable/shawdow_layout"
+        android:elevation="2dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.292">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="137dp"
+            android:layout_height="112dp"
+
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"
+            android:elevation="25dp"
+            android:src="@drawable/icon_launcher_back"
+
+            />
+
+        <TextView
+            android:id="@+id/editText"
+            android:layout_width="111dp"
+            android:layout_height="36dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:inputType="textPersonName"
+            android:text="@string/Welcome"
+            android:textColor="#193300"
+            android:textSize="20sp"
+            android:typeface="monospace" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Android"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.363" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Android Interview Questions</string>
+    <string name="Sq">Simple Questions</string>
+    <string name="tq">TOUGH QUESTIONS</string>
+    <string name="OA">More Apps</string>
+    <string name="RA">Rate App </string>
+    <string name="Welcome">Welcome!</string>
+    <string name="answer">Answer</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="xx">xx</string>
+    <string name="yy">yy</string>
+    <string name="question">Question</string>
+    <string name="ansTab">Sample Answer</string>
+    <string name="press_below_button_for_answer">Press Below Button For Answer</string>
+    <string name="Overview">Overview</string>
+    <string name="Overview_string">Here is the list of most frequently asked Android Interview Questions and Answers in technical interviews. These Android questions and answers are suitable for both freshers and experienced professionals at any level. The Android questions are for intermediate to somewhat advanced Android professionals, but even if you are just a beginner or fresher you should be able to understand the Android answers and explanations here we give.
+In this post, you will get the most important and top Android Interview Questions and Answers, which will be very helpful and useful to those who are preparing for jobs.</string>
+     <string name="Overview_String_ofTough_ques">Here are some Android interview questions and answers for freshers who are looking to make a career in this uncharted arena of the Android world. Though these questions will give you a basic idea of how the companies conduct their interviews, it is advised that you enroll yourself in a good training institute that will help you gain the requisite knowledge and skill required to get any job in this area. Ace Web Academy is the top android training institute in Hyderabad that provides Android training courses. You can even enroll in android classes online and clear your fundamentals in Android programming. You will get an opportunity to start building apps and prepare yourself quickly for numerous Android jobs.
+So let’s have a look at the Android interview questions and answers for freshers first.</string>
+    <string name="proceed_simpleOverview">Proceed</string>
+    <string name="Android">Android: Interview Questions</string>
+
+</resources>

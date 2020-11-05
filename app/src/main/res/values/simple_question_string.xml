@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="simple_question">
+        <item>1.Explain Android</item>
+        <item>2.Explain Android SDK</item>
+        <item>3.List out the different Android version along with its name.</item>
+        <item>4.Which language is supporting Android development?</item>
+        <item>5.What are the layers in the Android architecture?</item>
+        <item>6.If you start a new project in Android, what are the required components?</item>
+        <item>7.List out the Android vital core components</item>
+        <item>8.Describe services in Android</item>
+        <item>9.What are the different states of Activity Lifecycle in Android?</item>
+        <item>10.Describe Intent of Android</item>
+        <item>11.Provide the types of Intents</item>
+        <item>12.Define Implicit Intents</item>
+        <item>13.Define Explicit Intents</item>
+        <item>14.What is the use of permission setup in app development?</item>
+        <item>15.Mention the database which is used for android platform</item>
+        <item>16.Give the abbreviation of ANR</item>
+        <item>17.List out the dialog boxes supported by Android</item>
+        <item>18.What is the abbreviation of ADB?</item>
+        <item>19.Explain Orientation</item>
+        <item>20.How many types of orientations are available in Android?</item>
+        <item>21.What is the method used to set the orientation?</item>
+        <item>22.What is the method used while changing the orientation from one to the other?</item>
+        <item>23.Describe ActivityCreator</item>
+        <item>24.Give the abbreviation for AIDL</item>
+        <item>25.List out the data types which are supported by AIDL</item>
+        <item>26.What is AndroidManifest.xml file in Android?</item>
+        <item>27.Mention the tool names that is used for debugging in Android</item>
+        <item>28.What are the mobile automation testing tools in market?</item>
+        <item>29.Provide few details on how to troubleshoot android apps when the users faces the crashing regularly.</item>
+        <item>30.If there is a leak in memory, how will you find it in an Android mobile app?</item>
+        <item>31.What is the abbreviation of DDMS?</item>
+        <item>32.Is it possible to debug on both emulators and real devices with the help of DDMS?</item>
+        <item>33.List out the various data storage options available on Android.</item>
+        <item>34.What are sensors?</item>
+        <item>35.What are the sensor categories available in Android devices?</item>
+        <item>36.Provide the Java classes available with respect to the Android sensors.</item>
+        <item>37.What is the abbreviation of NDK?</item>
+        <item>38.What is the use of NDK?</item>
+        <item>39.What is the abbreviation of APK?</item>
+        <item>40.What is the abbreviation of ADT?</item>
+        <item>41.In Android, which kernel is used?</item>
+        <item>42 In Android, what are the flag types used to run an application?</item>
+        <item>43.Explain sleep mode process in Android</item>
+        <item>44.Provide few exceptions available in Android</item>
+        <item>45.Provide the three CPU architectures of Android</item>
+        <item>46.What is the reason for not running bytecode in Android?</item>
+        <item>47.What are the Launch modes available in Android?</item>
+        <item>48.What is the use of Thread?</item>
+        <item>49.Define Handlers in Android</item>
+        <item>50.What are the services available in Android?</item>
+
+
+    </string-array>
+
+</resources>

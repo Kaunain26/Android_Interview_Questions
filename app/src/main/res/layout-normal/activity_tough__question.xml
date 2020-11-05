@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/simple_question"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/upeer_background"
+    android:weightSum="100"
+
+    tools:context=".SimpleQuestion">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:gravity="center"
+        android:elevation="21dp"
+        android:background="@drawable/upeer_background"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/xx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="@string/xx" />
+
+        <TextView
+            android:id="@+id/yy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="@string/yy" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="80"
+        android:background="@drawable/shadow_layout_2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="15dp"
+            android:padding="10dp"
+            android:background="@drawable/green_shadow"
+            android:text="@string/question"
+            android:layout_marginTop="8dp"
+
+            android:textSize="20sp"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/ansTab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:padding="10dp"
+            android:text="@string/ansTab"
+            android:textSize="20sp"
+            android:typeface="sans"
+            android:textStyle="bold"
+            app:fontFamily="cursive">
+
+        </TextView>
+
+        <ScrollView
+            android:layout_width="340dp"
+            android:layout_height="400dp"
+            android:layout_gravity="center_horizontal"
+            android:elevation="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/answer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center"
+                    android:background="@drawable/shadow_button_state"
+                    android:padding="15dp"
+                    android:text="@string/press_below_button_for_answer"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:fontFamily="serif-monospace" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/tapPre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_state"
+            android:layout_marginLeft="20dp"
+            android:text="@string/previous"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="13dp"/>
+
+        <Button
+            android:id="@+id/tapNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/button_state"
+            android:text="@string/next"
+            android:layout_marginTop="13dp"
+            android:layout_marginStart="100dp"></Button>
+    </LinearLayout>
+
+</LinearLayout>
+

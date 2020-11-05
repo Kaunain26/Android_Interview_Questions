@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="simple_answer">
+        <item>Android is very famous for Tablets and smartphones and this is an open-source operating system. The operating system of Android is Linux Kernel. The developers are developing the programs or functions with the help of Android operating system to perform both advanced and basic operations on Smartphones.</item>
+        <item>Android SDK is an efficient set of tools to write an app or develop a mobile application. This tool has a Graphical User Interface emulating an android environment. This kind of an emulator stands out to be an actual mobile where the developers can write the code and test the written the code.</item>
+        <item>Android 4.0 to 4.0.4 – Ice Cream Sandwich, Android 4.1 to 4.3 – Jelly Bean, Android 4.4 to 4.4.4 – Kitkat, Android 5 to 5.1.1 – Lollipop, Android 6 to 6.0.1 – Marshmallow, Android 7.0 to 7.1.2 – Nougat, and Android 8.0 – Oreo are the different android version and its names.</item>
+        <item>Android development widely uses the language Java. In addition, it supports C or C++ when using Android SDK. This really enhances the performance speed.</item>
+        <item>Linux Kernel, Hardware Abstraction Layer, Android Runtime, Application Framework and Applications are the layers in the Android Architecture.</item>
+        <item>The components essential to start a new project in Android are build/, res/, manifest, assets/ and src/.</item>
+        <item>Services, Fragment, Activity, Content Provider and Intents are the core components of Android.</item>
+        <item>An android component that runs in the background and acting autonomously without providing any user interface are called services. As the services is recognised to run in the background, users can easily access any apps and continue to perform their own work.</item>
+        <item>The different states of Activity Lifecycle in Android are given below:
+            onCreate()
+            onStart()
+            onRestart()
+            onResume()
+            onPause()
+            onStop()
+            onDestroy()</item>
+        <item>When there is a need for a user to navigate from one activity to the other one, Android is holding the Intent class. Intent is the one that displays notification to the users from the device and if required, users can act on that notification.</item>
+        <item>Implicit and Explicit Intents are the two (2) types of Intents available in Android.</item>
+        <item>The intents that calls the system components are called Implicit Intents.</item>
+        <item>The intents that invoke the Activity are called Explicit Intents.</item>
+        <item>Only the authorized users are permitted to use the code and data once the permission setup is completed in app development.</item>
+        <item>Android platform make use of SQLite database, which is a serverless and open-source database.</item>
+        <item>ANR – Application Not Responding. The Android platform displays a pop-up when too many functions are performed by the application at a time and at times, users will not receive any response from the system. Such kind of a pop-up notification is called ANR.</item>
+        <item>TimePickerDialog, AlertDialog, DatePickerDialog, and ProgressDialog are the dialog boxes supported by Android platform.</item>
+        <item>ADB stands for Android Debug Bridge, a command line tool performing shell commands. To enable the communication directly between the emulator parts, ADB is used.</item>
+        <item>Orientation which is available in smartphones these days provides the ability for screen rotation. Users can rotate the screen between vertical or horizontal mode.</item>
+        <item>There are two (2) types of Orientations are available in Android, namely Portrait and Landscape.</item>
+        <item>The method used to set the orientation is ‘setOrientation’ and this can easily set the screen configurations.</item>
+        <item>The method ‘onCreate()’ is used while changing the orientation from vertical to horizontal or vice-versa.</item>
+        <item>ActivityCreator is a shell script and batch file, helpful for creating a new project in Android. In Android SDK, ActivityCreator is replaced by “Create New Project”.</item>
+        <item>AIDL – Android Interface Definition Language. This is used to simplify the communication between service and the client. Also, the inter-process communication can be used to pass the information.</item>
+        <item>Map, String, Data types of Java, charSequence, and List are the data types supported by AIDL.</item>
+        <item>Before running an app code, every android system should ensure to have AndroidManifest.xml file in the root directory. This file contains information on Android components like Content Providers, Activity, Broadcast Receivers, Services, etc and the package name.</item>
+        <item>Few tool names used for debugging in Android are given below:
+            Android Debug Bridge
+            iOS simulator
+            Android DDMS
+            Remote Debugging
+            Eclipse with ADT</item>
+        <item>Robotium, Appium, Calabash, and KIF are the free automation tool. SeeTest, Silk Mobile and Ranorex are the paid tools.</item>
+        <item>Users must free up the memory space and then must clear the usage of app data. Try to manage the memory often and perform compatibility testing using different mobile devices.</item>
+        <item>Android Device Manager is used to detect the memory leakage on all Android mobile apps.</item>
+        <item>DDMS stands for Dalvik Debug Monitor Server, which is a debugging tool used by Android Studio.</item>
+        <item>Yes, it is possible to debug on both emulators and real devices with the help of DDMS.</item>
+        <item>Internal Storage, SharedPreference, External Storage and SQLite are the different storage options.</item>
+        <item>To measure motion, orientation and few other conditions of an android devices, we do have a feature called built-in sensors.</item>
+        <item>Position Sensors, Motion Sensors and Environmental Sensors are the three categories of sensors available in Android devices.</item>
+        <item>SensorEvent, Sensor Manager, SensorEventListener and Sensor are the Javaclasses available with respect to the Android sensors.</item>
+        <item>NDK – Native Development Kit.</item>
+        <item>If you want to use the native language like C or C++ to develop a part of an app, NDK is very much helpful.</item>
+        <item>APK stands for Android Packaging Key.</item>
+        <item>ADT – Android Development Tool, which is useful in developing and testing the applications.</item>
+        <item>Customised Linux 3.6 Kernel is used in Android.</item>
+        <item>FLAG_ACTIVITY_CLEAR_TOP and FLAG_ACTIVITY_NEW_TASK are the two types of flags.</item>
+        <item>If sleep mode is ON, CPU is made to sleep and no commands are accepted from android devices, excluding alarm and radio interface layer.</item>
+        <item>SurfaceHolder.BadSurfaceTypeException, Inflate Exception, WindowManager.BadTokenException and Surface.OutOfResourceException are the exceptions available in Android.</item>
+        <item>ARMv7, ARMx86, and ARM64 are the three (3) CPU architectures of Android.</item>
+        <item>Rather using Java Virtual Machine (JVM), Dalvik Virtual Machine is used by Android. Hence, it is not possible to run bytecode in Android.</item>
+        <item>SingleTop, SingleInstance, Standars and SingleTask are the four (4) Launch modes available in Android.</item>
+        <item>If there are long running operations from main thread, Thread is used to separate those to improve the performance.</item>
+        <item>To manage threads, handlers are used. Handlers permits the communication between main thread and background thread. Users prefer handlers when there is a need to perform background task frequently for a given intervals in minutes.</item>
+        <item>Bound Services, Background Services and Foreground Services are the three (3) services available in Android.</item>
+
+
+    </string-array>
+
+</resources>
